@@ -55,6 +55,59 @@
     color: rgb(253, 0, 84);
     transition: all 1s ease;
 }
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .nav {
+        background-color: white;
+    z-index: 9;
+    padding-left: 150px;
+    padding-right: 200px;
+    display:flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+    }
+
+   .logo
+{
+    float:left;
+    width: 100%;
+}
+.logo img
+{
+    padding: 8px;
+    width:30%;
+    margin-left:10%;
+}
+.nav_side
+{
+    float:right;
+    width:80%;
+    margin-top: 50px;
+}
+.nav_side a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left:40px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: rgb(37, 0, 19);
+    font-weight: bold;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover
+{
+    color: rgb(253, 0, 84);
+    transition: all 1s ease;
+}
+}
 /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
 .slide
 {
