@@ -648,4 +648,68 @@ footer p
         padding: 10px; /* Adjust padding */
         font-size: 5px; /* Adjust font size */
     }
+    /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
+    .slide {
+        padding: 0px;
+        height: auto; /* Allow height to adjust dynamically */
+    }
+
+    .slide .slide_container {
+        text-align: center;
+    }
+
+    .slide .slide_container .item .item_img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 250px; /* Reduce the max height for mobile */
+    }
+
+    .slide_con {
+        background-image: url("images/back.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Change from fixed for better mobile compatibility */
+        height: auto; /* Allow the height to adjust */
+        padding-bottom: 20px; /* Add padding for better spacing */
+    }
+
+    .slide_con .slide_content {
+        padding-top: 5%; /* Reduce top padding */
+        margin: 5%; /* Reduce margins for smaller screens */
+    }
+
+    .slide_con .slide_content h2 {
+        color: white;
+        font-size: 200%; /* Reduce font size */
+        line-height: 30px; /* Adjust line height */
+        text-align: center;
+    }
+
+    .slide_con .slide_content h2 span {
+        font-size: 70%; /* Adjust span font size */
+        line-height: 15px; /* Adjust line height */
+    }
+
+    .slide_con .slide_content .slide_btn {
+        margin-top: 10%; /* Adjust margin */
+        text-align: center;
+    }
+
+    .slide_con .slide_content .slide_btn a {
+        font-size: medium; /* Reduce font size */
+        margin: 10%; /* Adjust margin for better spacing */
+        padding: 8px 15px; /* Adjust padding for smaller buttons */
+        border: 2px solid white; /* Thinner border for mobile */
+        border-radius: 5px; /* Adjust border radius */
+    }
+
+    .slide_con .slide_content .slide_btn a:hover {
+        background-color: white;
+        color: rgb(37, 0, 19);
+        border: none;
+        border-bottom: 2px solid orange; /* Adjust border for hover */
+    }
+
 }
