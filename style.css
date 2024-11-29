@@ -55,65 +55,6 @@
     color: rgb(253, 0, 84);
     transition: all 1s ease;
 }
-
-@media (max-width: 600px){
-.nav
-{
-    background-color: white;
-    z-index: 9;
-    padding-left: 50%;
-    padding-right: 70%;
-    display:flex;
-    box-shadow: 0% 3% 65% 0% rgba(0,0,0,.15);
-}
-.nav_top
-{
-    position:fixed;
-    top:0;
-    right:0;
-    left:0;
-}
-.logo
-{
-    float:left;
-    width: 50%;
-}
-.logo img
-{
-    padding: .5%;
-    width:30%;
-    margin-left:10%;
-}
-.nav_side
-{
-    float:right;
-    width:0%;
-    margin-top: 0%;
-}
-.nav_side a
-{
-    text-decoration: none;
-    margin-right: 100%;
-    margin-left:100%;
-    margin-top: 50%;
-    padding-top: 100%;
-    padding-left: 50%;
-    color: rgb(37, 0, 19);
-    font-weight: bold;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-size: 100%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    
-}
-.nav_side a:hover
-{
-    color: rgb(253, 0, 84);
-    transition: all 1s ease;
-}   
-}
 /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
 .slide
 {
@@ -673,3 +614,38 @@ footer p
     line-height: 25px;
 }
 /*--------------------------------------------CATERING---------------------------------------*/
+@media (max-width: 600px) {
+    .nav {
+        background-color: white;
+        z-index: 9;
+        padding: 1px; /* Adjusted padding for smaller screens */
+        display: block; /* Change to block for better stacking */
+        box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .logo {
+        float: none; /* Remove float for mobile */
+        width: 10%; /* Make it take full width */
+        text-align: left; /* Center align the logo */
+    }
+
+    .logo img {
+        padding: 8px;
+        width: 50%; /* Adjust the width for better fit */
+        margin: 0 auto; /* Center the logo image */
+    }
+
+    .nav_side {
+        float: none; /* Remove float for mobile */
+        width: 60%; /* Make it take full width */
+        margin-top: 0px; /* Reduce the margin for better fit */
+        text-align: left; /* Center align links */
+    }
+
+    .nav_side a {
+        display: inline-block; /* Allow inline alignment */
+        margin: 1px 1px; /* Adjust margins */
+        padding: 10px; /* Adjust padding */
+        font-size: 5px; /* Adjust font size */
+    }
+}
