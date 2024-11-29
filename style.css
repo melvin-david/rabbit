@@ -625,8 +625,8 @@ footer p
 
     .logo {
         float: none; /* Remove float for mobile */
-        width: 100%; /* Make it take full width */
-        text-align: center; /* Center align the logo */
+        width: 10%; /* Make it take full width */
+        text-align: left; /* Center align the logo */
     }
 
     .logo img {
@@ -637,16 +637,16 @@ footer p
 
     .nav_side {
         float: none; /* Remove float for mobile */
-        width: 100%; /* Make it take full width */
-        margin-top: 20px; /* Reduce the margin for better fit */
-        text-align: center; /* Center align links */
+        width: 60%; /* Make it take full width */
+        margin-top: 0px; /* Reduce the margin for better fit */
+        text-align: left; /* Center align links */
     }
 
     .nav_side a {
         display: inline-block; /* Allow inline alignment */
-        margin: 5px 10px; /* Adjust margins */
+        margin: 1px 1px; /* Adjust margins */
         padding: 10px; /* Adjust padding */
-        font-size: 13px; /* Adjust font size */
+        font-size: 14px; /* Adjust font size */
     }
     /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
     .slide {
@@ -711,5 +711,307 @@ footer p
         border: none;
         border-bottom: 2px solid orange; /* Adjust border for hover */
     }
+/*------------------------------------------------SIDE----------------------------------------*/
+    .side {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: block; /* Change to block for better stacking */
+        text-align: center; /* Ensure content is centered */
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    }
 
+    .side .left, 
+    .side .right {
+        float: none; /* Remove float for mobile */
+        width: 100%; /* Allow full width */
+        text-align: center; /* Center align content */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .side .right h2 {
+        font-size: 150%; /* Reduce heading size for better fit */
+    }
+
+    .side .right p {
+        width: 90%; /* Allow text to use most of the width */
+        font-size: 120%; /* Adjust font size for readability */
+        margin: 5% auto; /* Center the paragraph */
+        margin-top: 5%; /* Adjust top margin */
+    }
+
+    .side .right .side_btn {
+        margin-top: 5%; /* Adjust spacing */
+    }
+
+    .side .right .side_btn a {
+        font-size: medium; /* Adjust font size for buttons */
+        margin: 5%; /* Reduce margin for better spacing */
+        padding: 8px 15px; /* Adjust padding for smaller buttons */
+        border: 2px solid black; /* Thinner border for mobile */
+        border-radius: 5px; /* Adjust border radius */
+    }
+
+    .side .right .side_btn a:hover {
+        background-color: black;
+        color: white;
+        border: none;
+        border-bottom: 2px solid rgb(255, 34, 144); /* Adjust hover border size */
+        transition: 0.5s;
+    }
+
+/*------------------------------------------------MAIN----------------------------------------*/
+    .main {
+        background-image: url("images/back.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Change from fixed for mobile compatibility */
+        height: auto; /* Allow dynamic height */
+    }
+
+    .main .main_content {
+        padding: 20px; /* Reduce padding for smaller screens */
+        text-align: center;
+    }
+
+    .main .main_content h2 {
+        font-size: 24px; /* Reduce font size for smaller screens */
+        width: auto; /* Remove fixed width for flexibility */
+        padding: 20px; /* Adjust padding for smaller screens */
+        margin: 0 auto; /* Center the content */
+        border-radius: 20px; /* Adjust border radius */
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.45); /* Slightly reduce shadow intensity */
+    }
+
+    .main .main_content h2 span {
+        font-size: 50%; /* Adjust font size for span text */
+    }
+
+    /* PRODUCTS SECTION */
+    .product {
+        padding-bottom: 20px; /* Reduce bottom padding */
+    }
+
+    .product h2 {
+        font-size: 25px; /* Adjust font size */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .product .product_container {
+        display: block; /* Change to block layout for stacking */
+        margin-left: 2%; /* Reduce margins */
+        margin-right: 2%;
+    }
+
+    .product .product_container .item {
+        width: 100%; /* Make items take full width */
+        margin: 10px auto; /* Center items */
+        height: auto; /* Allow dynamic height */
+    }
+
+    .product .product_container .item:hover {
+        box-shadow: 0px 2px 30px 0px rgb(255, 189, 165); /* Slightly reduce hover shadow intensity */
+    }
+
+    .product .product_container .item .item_img {
+        height: auto; /* Allow image height to adjust */
+    }
+
+    .product .product_container .item .item_img img {
+        width: 50%; /* Ensure images are responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .product .product_container .item .item_content h3 {
+        font-size: 13px; /* Adjust font size for headings */
+        width: 50%;
+    }
+
+    .product .product_container .item .item_content p {
+        font-size: 13px; /* Adjust font size for paragraphs */
+        line-height: 18px; /* Adjust line height */
+        width: 50%;
+    }
+
+    .product .product_container .item .item_content a {
+        font-size: 12px; /* Reduce font size for links */
+        padding: 5px 8px; /* Adjust padding for smaller buttons */
+        border: 2px solid rgb(212, 0, 106); /* Thinner border for mobile */
+        transition: 0.5s;
+    }
+
+    .product .product_container .item .item_content a:hover {
+        background-color: rgb(212, 0, 106);
+        color: white;
+        border: none;
+    }
+/*--------------------------------------------KEY HIGHLIGHTS----------------------------------------*/
+    .keypoint {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .keypoint h2 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        text-align: center;
+    }
+
+    .keypoint .key_container {
+        display: block; /* Change to block layout for stacking */
+    }
+
+    .keypoint .key_container .key_content {
+        width: 100%; /* Make the content take full width */
+        padding: 20px; /* Reduce padding */
+        float: none; /* Remove float for proper stacking */
+        margin: 10px 0; /* Adjust margins for spacing */
+    }
+
+    .keypoint .key_container .key_content li {
+        padding: 10px; /* Adjust padding */
+        font-size: 14px; /* Reduce font size for readability */
+        border-left: 2px solid rgb(161, 0, 83);
+        text-align: left;
+        box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1); /* Slightly reduce shadow intensity */
+    }
+
+    .keypoint .key_container .key_img {
+        width: 100%; /* Make the image take full width */
+        float: none; /* Remove float for proper stacking */
+        margin: 10px 0; /* Adjust margins for spacing */
+    }
+
+    .keypoint .key_container .key_img img {
+        width: 100%; /* Ensure images are responsive */
+    }
+    .feed {
+        background-image: url("images/feed.jpg");
+        background-size: cover;
+        padding: 20px; /* Reduce padding for smaller screens */
+        text-align: center;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    }
+
+    .feed h2 {
+        font-size: 24px; /* Adjust font size */
+        padding: 5px; /* Reduce padding */
+    }
+
+    .feed .feed_form {
+        text-align: center;
+    }
+
+    .feed .feed_form form {
+        padding: 10px; /* Reduce padding for compactness */
+    }
+
+    .feed .feed_form form input,
+    .feed .feed_form form textarea,
+    .feed .feed_form form button {
+        width: 90%; /* Make form elements take up most of the screen width */
+        margin: 5px 0; /* Reduce margin for better spacing */
+        padding: 10px; /* Adjust padding for touch-friendly design */
+        font-size: 14px; /* Adjust font size for readability */
+    }
+
+    .feed .feed_form form button {
+        background-color: rgb(161, 0, 83);
+        color: white;
+        border: none; /* Ensure no visible border */
+    }
+    footer {
+        background-color: black;
+        padding: 20px; /* Reduce padding for smaller screens */
+        text-align: center; /* Center-align everything for a mobile-friendly layout */
+    }
+
+    footer .pages, 
+    footer .doc, 
+    footer .social, 
+    footer .contact {
+        text-align: center; /* Ensure proper alignment */
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+
+    footer .pages h3, 
+    footer .doc h3, 
+    footer .social h3, 
+    footer .contact h3 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 5px; /* Ensure consistent padding */
+    }
+
+    footer .pages a, 
+    footer .doc a, 
+    footer .social a, 
+    footer .contact a {
+        font-size: 14px; /* Adjust font size for links */
+        margin: 5px; /* Reduce margins for better spacing */
+        color: rgba(255, 226, 243, 0.808); /* Keep link colors consistent */
+    }
+
+    footer .pages a:hover, 
+    footer .doc a:hover, 
+    footer .social a:hover, 
+    footer .contact a:hover {
+        color: white; /* Maintain hover effect */
+    }
+
+    footer .social a, 
+    footer .contact a {
+        font-size: 24px; /* Adjust icon size */
+        margin: 8px; /* Reduce spacing */
+    }
+
+    footer p {
+        color: rgba(247, 178, 217, 0.726); /* Keep text color consistent */
+        font-size: 12px; /* Adjust font size for small screens */
+    }
+    /* ABOUT US */
+    .about_us {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .about_us h2 {
+        font-size: 24px; /* Adjust font size */
+        text-align: center; /* Ensure center alignment */
+    }
+
+    .about_us h5 {
+        font-size: 14px; /* Reduce subtitle font size */
+        text-align: center; 
+    }
+
+    .about_us p {
+        font-size: 14px; /* Adjust paragraph font size */
+        line-height: 22px; /* Adjust line height for readability */
+        padding: 10px; /* Reduce padding for better spacing */
+    }
+
+    /* CONTACT */
+    .contact_container {
+        padding: 20px; /* Reduce padding for compactness */
+    }
+
+    .contact_container h2 {
+        font-size: 24px; /* Adjust heading font size */
+        text-align: center; 
+    }
+
+    .contact_container .g_map {
+        border: 5px solid rgb(92, 0, 47); /* Reduce border size */
+        width: 100%; /* Ensure the map fits the screen width */
+        margin-top: 10px; /* Add spacing for layout */
+    }
+
+    .contact_container .contact_content {
+        padding: 10px; /* Reduce padding for compactness */
+    }
+
+    .contact_container .contact_content p {
+        font-size: 14px; /* Adjust paragraph font size */
+        line-height: 22px; /* Adjust line height for readability */
+        padding: 5px; /* Reduce padding */
+        text-align: center; /* Ensure alignment */
+    }
 }
+
