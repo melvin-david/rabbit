@@ -618,15 +618,15 @@ footer p
     .nav {
         background-color: white;
         z-index: 9;
-        padding: 1px; /* Adjusted padding for smaller screens */
+        padding: 10px; /* Adjusted padding for smaller screens */
         display: block; /* Change to block for better stacking */
         box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
     }
 
     .logo {
         float: none; /* Remove float for mobile */
-        width: 10%; /* Make it take full width */
-        text-align: left; /* Center align the logo */
+        width: 100%; /* Make it take full width */
+        text-align: center; /* Center align the logo */
     }
 
     .logo img {
@@ -637,16 +637,16 @@ footer p
 
     .nav_side {
         float: none; /* Remove float for mobile */
-        width: 60%; /* Make it take full width */
-        margin-top: 0px; /* Reduce the margin for better fit */
-        text-align: left; /* Center align links */
+        width: 100%; /* Make it take full width */
+        margin-top: 20px; /* Reduce the margin for better fit */
+        text-align: center; /* Center align links */
     }
 
     .nav_side a {
         display: inline-block; /* Allow inline alignment */
-        margin: 1px 1px; /* Adjust margins */
+        margin: 5px 10px; /* Adjust margins */
         padding: 10px; /* Adjust padding */
-        font-size: 5px; /* Adjust font size */
+        font-size: 13px; /* Adjust font size */
     }
     /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
     .slide {
