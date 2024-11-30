@@ -117,7 +117,7 @@
     font-size:40%;
     opacity: 0.9;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 100px;
 }
 .slide_con .slide_content .slide_btn
 {
@@ -651,13 +651,12 @@ footer p
     /*-------------------------------------------FIRST CAROUSEL----------------------------------------*/
     .slide {
         padding: 0px;
-        height: auto; /* Allow height to adjust dynamically */
+        height: 50px; /* Allow height to adjust dynamically */
     }
 
     .slide .slide_container {
         text-align: center;
     }
-
     .slide .slide_container .item .item_img img {
         width: 100%;
         height: auto;
@@ -670,9 +669,9 @@ footer p
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: scroll; /* Change from fixed for better mobile compatibility */
+        background-attachment: fixed; /* Change from fixed for better mobile compatibility */
         height: auto; /* Allow the height to adjust */
-        padding-bottom: 20px; /* Add padding for better spacing */
+        padding-bottom: 30px; /* Add padding for better spacing */
     }
 
     .slide_con .slide_content {
@@ -682,18 +681,18 @@ footer p
 
     .slide_con .slide_content h2 {
         color: white;
-        font-size: 200%; /* Reduce font size */
+        font-size: 190%; /* Reduce font size */
         line-height: 30px; /* Adjust line height */
         text-align: center;
     }
 
     .slide_con .slide_content h2 span {
-        font-size: 70%; /* Adjust span font size */
+        font-size: 60%; /* Adjust span font size */
         line-height: 15px; /* Adjust line height */
     }
 
     .slide_con .slide_content .slide_btn {
-        margin-top: 10%; /* Adjust margin */
+        margin-top: 1%; /* Adjust margin */
         text-align: center;
     }
 
@@ -765,18 +764,18 @@ footer p
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: scroll; /* Change from fixed for mobile compatibility */
-        height: auto; /* Allow dynamic height */
+        background-attachment: fixed; /* Change from fixed for mobile compatibility */
+        height: 300%; /* Allow dynamic height */
     }
 
     .main .main_content {
-        padding: 20px; /* Reduce padding for smaller screens */
+        padding: 60px; /* Reduce padding for smaller screens */
         text-align: center;
     }
 
     .main .main_content h2 {
         font-size: 24px; /* Reduce font size for smaller screens */
-        width: auto; /* Remove fixed width for flexibility */
+        width: 100%; /* Remove fixed width for flexibility */
         padding: 20px; /* Adjust padding for smaller screens */
         margin: 0 auto; /* Center the content */
         border-radius: 20px; /* Adjust border radius */
