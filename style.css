@@ -618,7 +618,7 @@ footer p
     .nav {
         background-color: white;
         z-index: 9;
-        padding: 10px; /* Adjusted padding for smaller screens */
+        padding: 5px; /* Adjusted padding for smaller screens */
         display: block; /* Change to block for better stacking */
         box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
     }
@@ -669,9 +669,10 @@ footer p
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         background-attachment: fixed; /* Change from fixed for better mobile compatibility */
         height: auto; /* Allow the height to adjust */
-        padding-bottom: 30px; /* Add padding for better spacing */
+        padding-bottom: 20px; /* Add padding for better spacing */
     }
 
     .slide_con .slide_content {
@@ -730,14 +731,12 @@ footer p
     .side .right h2 {
         font-size: 150%; /* Reduce heading size for better fit */
     }
-
     .side .right p {
         width: 90%; /* Allow text to use most of the width */
         font-size: 120%; /* Adjust font size for readability */
         margin: 5% auto; /* Center the paragraph */
         margin-top: 5%; /* Adjust top margin */
     }
-
     .side .right .side_btn {
         margin-top: 5%; /* Adjust spacing */
     }
@@ -757,6 +756,11 @@ footer p
         border-bottom: 2px solid rgb(255, 34, 144); /* Adjust hover border size */
         transition: 0.5s;
     }
+    .side img {
+        width: 70%;
+        height: 70%;
+        margin-right: 100%;
+    }
 
 /*------------------------------------------------MAIN----------------------------------------*/
     .main {
@@ -764,8 +768,9 @@ footer p
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed; /* Change from fixed for mobile compatibility */
-        height: 300%; /* Allow dynamic height */
+        background-attachment: fixed;
+        background-position: center; /* Change from fixed for mobile compatibility */
+        height: 500%; /* Allow dynamic height */
     }
 
     .main .main_content {
@@ -880,7 +885,8 @@ footer p
     }
 
     .keypoint .key_container .key_img img {
-        width: 100%; /* Ensure images are responsive */
+        width: 70%; /* Ensure images are responsive */
+        height: 70%;
     }
     .feed {
         background-image: url("images/feed.jpg");
